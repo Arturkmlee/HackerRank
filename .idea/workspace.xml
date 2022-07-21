@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a21d94-029b-4c8d-97a0-b472ba6833d1" name="Changes" comment="Primeiro commit teste">
+    <list default="true" id="e0a21d94-029b-4c8d-97a0-b472ba6833d1" name="Changes" comment="Exercícios:">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JavaStaticInitializerBlock">
+  <component name="RunManager" selected="Application.JavaIntToString">
+    <configuration name="JavaIntToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIntToString" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaLoopsI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaLoopsI" />
       <module name="HackerRank" />
@@ -60,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaIntToString" />
         <item itemvalue="Application.JavaStaticInitializerBlock" />
         <item itemvalue="Application.JavaStaticInitializerBLock" />
         <item itemvalue="Application.JavaLoopsI" />
@@ -82,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658360515683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercícios:">
+      <created>1658361767323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658361767323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercícios:">
+      <created>1658361778910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658361778910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit teste" />
+    <MESSAGE value="Exercícios:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios:" />
   </component>
 </project>
