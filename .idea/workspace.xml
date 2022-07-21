@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="Exercícios:&#10;  9 exercícios do HackerRank">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +46,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaStringTokens">
+  <component name="RunManager" selected="Application.JavaList">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Anagrams" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaList" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,13 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSubstring" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reverse" />
       <module name="HackerRank" />
@@ -85,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaList" />
         <item itemvalue="Application.JavaStringTokens" />
         <item itemvalue="Application.Anagrams" />
         <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.JavaStringCompare" />
-        <item itemvalue="Application.JavaSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -102,6 +101,29 @@
       <option name="presentableId" value="Default" />
       <updated>1658233580248</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercícios:&#10;  9 exercícios do HackerRank">
+      <created>1658424670345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658424670345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercícios:&#10;  9 exercícios do HackerRank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios:&#10;  9 exercícios do HackerRank" />
   </component>
 </project>
