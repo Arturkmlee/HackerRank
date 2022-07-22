@@ -10,20 +10,19 @@ public class JavaList {
            l.add(sc.nextInt());
         }
         int q = sc.nextInt();
-        sc.nextLine();
-        while(q-- > 0){
-            String query = sc.nextLine();
-            if (query.contentEquals("Delete")){
+        for (int i = 0; i < q; i++){
+            String query = sc.next();
+            if (query.contentEquals("Insert")){
+                int x = sc.nextInt();
                 int y = sc.nextInt();
-                l.remove(y);
-            } else if (query.contentEquals("Insert")){
-                int x, y;
-                x = sc.nextInt();
-                y = sc.nextInt();
                 l.add(x, y);
+            } else {
+                int x = sc.nextInt();
+                l.remove(x);
             }
-            sc.nextLine();
         }
-        System.out.println(l);
+        for (int i: l){
+            System.out.print(i + " ");
+        }
     }
 }
