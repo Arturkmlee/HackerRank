@@ -3,7 +3,26 @@ import java.util.*;
 public class Java1dArray {
 
     public static boolean canWin(int leap, int[] game) {
-        return(game[leap] == 0);
+        boolean jump = false;
+        int pivot = 0;
+        for(int i = 0; i < game.length; i++){
+            if(jump){
+                if(pivot + leap >= game.length - 1)
+                    return true;
+                else if (game[pivot + leap] == 1)
+                    return false;
+
+                jump = false;
+                i = pivot + leap - 1;
+            }
+            else if(game[i] == 1) {
+                jump = true;
+            }
+            else {
+                pivot = i;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
