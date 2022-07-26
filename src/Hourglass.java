@@ -26,7 +26,17 @@ public class Hourglass {
 
             arr.add(arrRowItems);
         }
-
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < 4; i ++) {
+            for(int j = 0; j < 4; j++){
+                int soma = arr.get(i).get(j) + arr.get(i).get(j + 1) + arr.get(i).get(j + 2)
+                        + arr.get(i + 1).get(j + 1) +
+                        arr.get(i + 2).get(j) + arr.get(i + 2).get(j + 1) + arr.get(i + 2).get(j + 2);
+                if(max < soma)
+                    max = soma;
+            }
+        }
+        System.out.println(max);
         bufferedReader.close();
     }
 }

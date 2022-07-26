@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="Exercícios:&#10;  JavaList - n funciona&#10;  JavaStack - n funciona&#10;  JavaHourglass - só comecei">
+    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="JavaArrayList - completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hourglass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hourglass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaSubarray">
+  <component name="RunManager" selected="Application.Hourglass">
+    <configuration name="Hourglass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hourglass" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaArrayList" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaRegex" />
       <module name="HackerRank" />
@@ -54,22 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaStack" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JavaSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaSubarray" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhoneBook" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hourglass" />
+        <item itemvalue="Application.JavaArrayList" />
         <item itemvalue="Application.JavaSubarray" />
         <item itemvalue="Application.JavaRegex" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.JavaStack" />
-        <item itemvalue="Application.PhoneBook" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658520539153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exercícios:&#10;  Java Subarray (testando Arrays.copyofRange)&#10;  Java Subarrav2 (melhor)">
+      <created>1658838346325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658838346325</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JavaArrayList - completo">
+      <created>1658839998549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658839998549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +155,19 @@
     <MESSAGE value="Exercícios:&#10;  9 exercícios do HackerRank" />
     <MESSAGE value="Exercícios:&#10;  JavaList" />
     <MESSAGE value="Exercícios:&#10;  JavaList - n funciona&#10;  JavaStack - n funciona&#10;  JavaHourglass - só comecei" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios:&#10;  JavaList - n funciona&#10;  JavaStack - n funciona&#10;  JavaHourglass - só comecei" />
+    <MESSAGE value="Exercícios:&#10;  Java Subarray (testando Arrays.copyofRange)&#10;  Java Subarrav2 (melhor)" />
+    <MESSAGE value="JavaArrayList - completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaArrayList - completo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hourglass.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
