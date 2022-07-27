@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="Java1dArray - incompleto">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="Java1dArray - completo (recursão, discussions)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java1dArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java1dArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Java1dArray">
+  <component name="RunManager" selected="Application.JavaStackFinal">
     <configuration name="Java1dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java1dArray" />
       <module name="HackerRank" />
@@ -73,6 +72,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaStackFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStackFinal" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaSubarray" />
       <module name="HackerRank" />
@@ -80,20 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaStackFinal" />
+        <item itemvalue="Application.JavaStack" />
         <item itemvalue="Application.Java1dArray" />
         <item itemvalue="Application.JavaSubarray" />
         <item itemvalue="Application.JavaRegex" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.JavaStack" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658878334238</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java1dArray - completo (recursão, discussions)">
+      <created>1658954391308</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658954391308</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +184,18 @@
     <MESSAGE value="Exercícios:&#10;  JavaList - n funciona&#10;  JavaStack - n funciona&#10;  JavaHourglass - só comecei" />
     <MESSAGE value="Java2DArray - completo (ex de corno)" />
     <MESSAGE value="Java1dArray - incompleto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java1dArray - incompleto" />
+    <MESSAGE value="Java1dArray - completo (recursão, discussions)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java1dArray - completo (recursão, discussions)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaStackFinal.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

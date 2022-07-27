@@ -6,10 +6,26 @@ class JavaStack{
 
         while (sc.hasNext()) {
             String input = sc.next();
-            Map<Character, Integer> mapa = new HashMap<>();
-            for (int i = 0; i < input.length() ; i++){
-                mapa.put(input.charAt(i), mapa.get(i).intValue() + 1);
+            boolean result = true;
+            Map<Character, Integer> mapa = new HashMap<>(Map.of('{',0,
+                    '}',0,
+                    '(',0,
+                    ')',0,
+                    '[',0,
+                    ']',0));
+            for(int i = 0; i < input.length(); i++){
+                mapa.put(input.charAt(i), mapa.get(input.charAt(i)) + 1);
             }
+
+            if(mapa.get('{') - mapa.get('}') != 0)
+                result = false;
+            if(mapa.get('(') - mapa.get(')') != 0)
+                result = false;
+            if(mapa.get('[') - mapa.get(']') != 0)
+                result = false;
+
+            System.out.println(result);
+
         }
 
     }
