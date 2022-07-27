@@ -2,27 +2,23 @@ import java.util.*;
 
 public class Java1dArray {
 
-    public static boolean canWin(int leap, int[] game) {
-        boolean jump = false;
-        int pivot = 0;
-        for(int i = 0; i < game.length; i++){
-            if(jump){
-                if(pivot + leap >= game.length - 1)
-                    return true;
-                else if (game[pivot + leap] == 1)
-                    return false;
-
-                jump = false;
-                i = pivot + leap - 1;
-            }
-            else if(game[i] == 1) {
-                jump = true;
-            }
-            else {
-                pivot = i;
-            }
+    private static boolean isSolvable(int leap, int[] game, int i) {
+        if (i >= game.length) {
+            return true;
+        } else if (i < 0 || game[i] == 1) {
+            return false;
         }
-        return true;
+
+        game[i] = 1;
+
+        // Recursive Cases
+        return isSolvable(leap, game, i + leap) ||
+                isSolvable(leap, game, i + 1) ||
+                isSolvable(leap, game, i - 1);
+    }
+
+    public static boolean canWin(int leap, int[] game){
+        return isSolvable(leap, game, 0);
     }
 
     public static void main(String[] args) {
