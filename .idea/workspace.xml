@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="JavaStackFinal - exercicio JavaStack funcionando&#10;JavaStack - completo usando HashMap">
+    <list default="true" id="48912c0d-5d12-4dff-8208-2608106f7c38" name="Changes" comment="JavaHashSet - completo&#10;JavaGenerics- completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +49,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaGenerics">
-    <configuration name="Java1dArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java1dArray" />
+  <component name="RunManager" selected="Application.JavaComparator">
+    <configuration name="JavaComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaComparator" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaComparator" />
         <item itemvalue="Application.JavaGenerics" />
         <item itemvalue="Application.JavaHashSet" />
         <item itemvalue="Application.JavaStackFinal" />
         <item itemvalue="Application.JavaStack" />
-        <item itemvalue="Application.Java1dArray" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658960687251</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JavaHashSet - completo&#10;JavaGenerics- completo">
+      <created>1658965563993</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658965563993</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +199,8 @@
     <MESSAGE value="Java1dArray - incompleto" />
     <MESSAGE value="Java1dArray - completo (recursão, discussions)" />
     <MESSAGE value="JavaStackFinal - exercicio JavaStack funcionando&#10;JavaStack - completo usando HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaStackFinal - exercicio JavaStack funcionando&#10;JavaStack - completo usando HashMap" />
+    <MESSAGE value="JavaHashSet - completo&#10;JavaGenerics- completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaHashSet - completo&#10;JavaGenerics- completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
